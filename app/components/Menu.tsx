@@ -1,6 +1,6 @@
 const Menu = () => {
   const menuItem = [
-    { index: 1, item: "Sobre", href: "#sobre" },
+    { index: 1, item: "Sobre", href: "#about" },
     { index: 2, item: "História", href: "#historia" },
     { index: 3, item: "Notícias", href: "#noticias" },
     { index: 4, item: "Calendário", href: "#calendario" },
@@ -13,7 +13,7 @@ const Menu = () => {
         <a
           key={item.index}
           href={item.href}
-          className="text-blue-900 md:text-blue-300 ml-3 hover:text-blue-200 hover:border-b hover:border-blue-50 w-fit 2xl:text-lg"
+          className="text-blue-900 md:text-blue-300 ml-3 hover:text-blue-200 hover:border-b hover:border-blue-50 w-fit 2xl:text-lg hover:-translate-y-1 hover:scale-110"
         >
           {item.item}
         </a>

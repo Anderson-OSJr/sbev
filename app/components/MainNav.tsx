@@ -9,9 +9,9 @@ const MainNav = () => {
   const [isMenuActive, setIsMenuActive] = useState(false);
 
   return (
-    <div className="flex flex-col items-center relative">
+    <div className="flex flex-col items-center fixed top-0 left-0 right-0 z-50">
       <section
-        className="flex flex-row gap-4 justify-between h-48 container absolute top-0 bg-blue-950 items-center"
+        className="flex flex-row gap-4 justify-between h-48 container bg-blue-950/90 bg-[url(/balao14.jpg)] bg-contain bg-center bg-no-repeat bg-blend-multiply items-center shadow-lg shadow-blue-300"
         id="inicio"
       >
         <div className="flex flex-row gap-3 md:gap-8 items-center">
