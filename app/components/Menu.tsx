@@ -1,7 +1,7 @@
 const Menu = () => {
   const menuItem = [
     { index: 1, item: "Sobre", href: "#about" },
-    { index: 2, item: "História", href: "#historia" },
+    { index: 2, item: "História", href: "#history" },
     { index: 3, item: "Notícias", href: "#noticias" },
     { index: 4, item: "Calendário", href: "#calendario" },
     { index: 5, item: "Filiação", href: "#filiacao" },
