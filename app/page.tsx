@@ -1,9 +1,9 @@
-import MainMenu from "./components/MainMenu";
+import MainNav from "./components/MainNav";
 
 export default function Home() {
   return (
     <>
-      <MainMenu />
+      <MainNav />
     </>
   );
 }
