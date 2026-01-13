@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section id="about" className="pt-52 flex flex-col items-center px-4">
+    <section id="about" className="pt-44 flex flex-col items-center px-4">
       <div className="flex flex-col md:flex-row container justify-between gap-8 items-center">
         <div className="flex flex-col  items-start max-w-3xl px-2">
           <h1 className="mt-4 text-4xl font-bold text-amber-500 text-shadow-sm text-shadow-amber-950 ">
             Sobre a SBEV
           </h1>
-          <div className="mt-2">
+          <div className="mt-2 text-blue-900">
             <p className="text-xl mt-2">
               A Associação Brasileira dos Profissionais de Ensaios em Voo (SBEV)
               agrega profissionais civis e militares da área de Ensaios em Voo.
@@ -46,7 +46,7 @@ const About = () => {
           <h1 className="text-center font-bold text-3xl text-blue-900">
             Missão
           </h1>
-          <p className="mt-4 px-6 text-blue-950">
+          <p className="mt-4 px-6 text-blue-900">
             A missão da SBEV é propiciar o avanço da engenharia e operações de
             ensaios em voo favorecendo a livre comunicação e troca de
             experiência entre os profissionais de ensaios em voo do Brasil e do
@@ -58,7 +58,7 @@ const About = () => {
           <h1 className="text-center font-bold text-3xl text-blue-900">
             Visão
           </h1>
-          <p className="mt-4 px-6 text-blue-950">
+          <p className="mt-4 px-6 text-blue-900">
             A visão da SBEV é ser reconhecida mundialmente como uma organização
             que promove a segurança, a comunicação e educação nos ensaios em voo
             de aeronaves de asa fixa e rotativa.
@@ -68,7 +68,7 @@ const About = () => {
           <h1 className="text-center font-bold text-3xl text-blue-900">
             Valores
           </h1>
-          <p className="mt-4 px-6 text-blue-950">
+          <p className="mt-4 px-6 text-blue-900">
             O Respeito à pessoa e aos profissionais; a Ética para a manutenção
             da confiança e do respeito; a Transparência nas suas atividades e
             decisões; a Equidade no tratamento às pessoas; a Responsabilidade
