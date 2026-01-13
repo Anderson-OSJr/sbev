@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import Menu from "./Menu";
+import MobileMenu from "./MobileMenu";
 
 const MainNav = () => {
   const [isMenuActive, setIsMenuActive] = useState(false);
@@ -46,7 +47,7 @@ const MainNav = () => {
         {/* Mobile Menu */}
         {isMenuActive && (
           <div className="md:hidden">
-            <Menu />
+            <MobileMenu />
           </div>
         )}
       </div>

@@ -1,4 +1,4 @@
-const Menu = () => {
+const MobileMenu = () => {
   const menuItem = [
     { index: 1, item: "Sobre", href: "#about" },
     { index: 2, item: "História", href: "#history" },
@@ -9,12 +9,12 @@ const Menu = () => {
   ];
 
   return (
-    <div className="flex flex-col lg:flex-row mr-6 p-3">
+    <div className="flex flex-col bg-blue-100 p-3 gap-3 border-1 border-blue-200 rounded-md shadow-xl shadorw-blue-900 mt-[-80px]">
       {menuItem.map((item) => (
         <a
           key={item.index}
           href={item.href}
-          className="text-blue-900 md:text-blue-300 ml-3 hover:text-blue-200 hover:border-b hover:border-blue-50 w-fit 2xl:text-lg hover:-translate-y-1 hover:scale-110"
+          className="text-blue-950 hover:text-blue-600/50 text-xl w-fit hover:-translate-y-1 hover:scale-110 hover:border-b-1"
         >
           {item.item}
         </a>
@@ -22,4 +22,4 @@ const Menu = () => {
     </div>
   );
 };
-export default Menu;
+export default MobileMenu;
