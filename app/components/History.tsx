@@ -63,7 +63,7 @@ const History = () => {
           </div>
         </div>
 
-        <div>
+        <div className="pr-4">
           <Image
             src="/menini_presidente.jpg"
             alt="Primeiro Presidente"
